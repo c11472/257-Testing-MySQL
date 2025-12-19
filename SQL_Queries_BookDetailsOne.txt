@@ -1,0 +1,62 @@
+Refer to the table BookDetailsOne
+
+
+1.BookID , BookAuthor , BookName , BookType  --- sorted as per bookID.
+
+2. Use alias and count the number of record in BookDetailsOne table.
+
+3. Display first 4 records from BookDetailsOne table.
+
+4. Display last two records from BookDEtailsOne.
+
+5. Concat BookName , BookAuthor , Price as boodetailsExtracted
+   Use concat method . concat(col1,col2)
+
+6. Extract all the records from BookDetailsOne for the BookType should not be Technical , Non Ficton
+
+   Use  Not In (col1,col2,col3)
+
+7. Extract all the records from BookDerailsOne where the BookType should be Technical , Fiction ,Story
+   Use IN(Technical , Fiction , Story)
+
+8. Group the table as per BookType to extract the data .
+
+   count of records must be displayed for each group ----
+
+9. Group the table as per BookType to extract the data .
+
+   count of records must be displayed for each group ---- , sort as per count
+
+10. Display the bookDetailsOne records for only the books whose name starts with C
+
+   Use  Like 'C%'  for first character
+   Use Like '%C' for last character
+
+
+11. How many books has been written by the author RBond
+
+12. Select all the records from BookDetailsOne for the author RBond
+
+13. Count how many authors are having book records in BookDetailsOne table
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
